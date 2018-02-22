@@ -53,11 +53,10 @@ function appuserrequiresLogin(req, res, next) {
 
 ///// ROutes start from here
 
-router.post('/appuserregister', function (req, res) {
+app.post('/appuserregister', function (req, res) {
     var d = req.body.number;
     var b = req.body.password;
     var c = req.body.name;
-    var sid = req.body.sid;
 
     console.log("number"+d);
     console.log("pswd"+b);
