@@ -53,7 +53,7 @@ function appuserrequiresLogin(req, res, next) {
 
 ///// ROutes start from here
 
-app.post('/appuserregister', function (req, res) {
+router.post('/appuserregister', function (req, res) {
     var d = req.body.number;
     var b = req.body.password;
     var c = req.body.name;

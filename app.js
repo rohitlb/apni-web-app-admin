@@ -52,7 +52,7 @@ store.on('error',function (error) {
 app.disable('x-powered-by');
 
 //configure the app
-app.set('port',8000);
+app.set('port',5000);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
